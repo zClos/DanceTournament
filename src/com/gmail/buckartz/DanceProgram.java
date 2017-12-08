@@ -5,7 +5,7 @@ import java.util.List;
 
 public class DanceProgram {
 
-    private final int MIN_DANCE_SIZE = 2;
+    private final int MIN_DANCE_SIZE = 1;
     private final int MAX_DANCE_SIZE = 49;
     private final int MIN_STEP_COUNT_IN_ACTION = 0;
     private final int MAX_STEP_COUNT_IN_ACTION = 49;
@@ -40,7 +40,7 @@ public class DanceProgram {
         } else {
             System.err.println("Program size must be longer than " + MIN_DANCE_SIZE
                     + " and shorter than " + MIN_DANCE_SIZE
-                    + "your size of program is: " + arrayProgram.length);
+                    + " your size of program is: " + arrayProgram.length);
         }
     }
 
